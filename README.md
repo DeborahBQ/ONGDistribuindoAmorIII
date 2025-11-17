@@ -21,7 +21,6 @@ Plataforma web desenvolvida para apoiar ONGs na divulgação de projetos, capta�
 │   ├── form-validation.js
 ├── README.md
 
-
 ## Páginas do Projeto
 
 - `index.html`: Página institucional da ONG
@@ -29,34 +28,25 @@ Plataforma web desenvolvida para apoiar ONGs na divulgação de projetos, capta�
 - `cadastro.html`: Formulário de cadastro de voluntários
 
 
-## Estilização e Leiaute
+## Funcionalidades Implementadas
 
-Todos os arquivos CSS estão na mesma pasta dos HTML e organizados de forma modular:
-
-- `style.css`: Arquivo principal que importa os módulos abaixo.
-- `variables.css`: Design system com cores, fontes e espaçamentos.
-- `layout.css`: Estrutura com Grid de 12 colunas, Flexbox e responsividade.
-- `components.css`: Estilos para cards, botões, formulários, alerts, toasts e badges.
-- `navigation.css`: Estilos para o menu principal e versão mobile (hambúrguer).
-
----
-
-## Responsividade
-
-- 5 breakpoints para adaptação em diferentes dispositivos.
-- Layout principal com CSS Grid e componentes internos com Flexbox.
-- Menu interativo com versão mobile.
-- Componentes com estados visuais (hover, focus, active, disabled).
-- Acessibilidade com contraste, foco visível e estrutura clara.
-
+- SPA básico com navegação dinâmica
+- Templates dinâmicos para exibição de projetos
+- Validação de formulário com alertas
+- Máscaras de entrada para CPF, telefone e CEP
+- Layout responsivo e acessível
+- Menu adaptado para dispositivos móveis
 
 
 ## Tecnologias Utilizadas
 
-- HTML5 semântico
-- CSS3 modular e responsivo
-- JavaScript para máscaras de input
-- Git e GitHub para versionamento
+- HTML5
+- CSS3 (modularizado)
+- JavaScript (ES6+)
+- SPA com JavaScript puro
+- Validação de formulário com alertas
+- Máscaras de entrada (CPF, telefone, CEP)
+
 
 ##  Desenvolvido por
 
