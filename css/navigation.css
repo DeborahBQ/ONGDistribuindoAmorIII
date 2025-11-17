@@ -1,0 +1,76 @@
+nav {
+  position: relative;
+}
+
+.menu-hamburguer {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-hamburguer span {
+  height: 4px;
+  width: 25px;
+  background: white;
+  margin: 4px 0;
+}
+
+@media (max-width: 768px) {
+  .a-menu {
+    display: none;
+  }
+
+  .menu-hamburguer {
+    display: flex;
+  }
+
+  .menu-mobile {
+    display: none;
+    flex-direction: column;
+    background-color: var(--cor-primaria);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+  }
+
+  .menu-mobile a {
+    padding: var(--espaco-2);
+    color: white;
+    text-decoration: none;
+  }
+
+  .menu-mobile.active {
+    display: flex;
+  }
+}
+
+/* Estilo para o container dos cards */
+#projetos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* espaço entre os cards */
+  justify-content: center; /* centraliza os cards */
+  padding: 20px;
+}
+
+/* Estilo para cada card */
+.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+/* Estilo para imagem dentro do card */
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+/* Conteúdo do card */
+.card-conteudo {
+  padding: 15px;
+}

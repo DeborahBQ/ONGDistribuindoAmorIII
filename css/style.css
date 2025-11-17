@@ -1,0 +1,364 @@
+*{
+  margin: 0;
+  padding: 0; 
+}
+
+@import url('variables.css');
+@import url('layout.css');
+@import url('components.css');
+@import url('navigation.css');
+
+
+body{
+     background-color: rgb(255,255,255);
+}
+
+header, img{
+       width: 100%;
+	   height: 320px;
+}
+
+nav{
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 10px;
+}
+
+.a-menu{
+       display: inline-block;
+       margin: 0 20px;
+	   font-family: itim; 
+       color: #134689; 
+       text-decoration: none;
+       text-align: center;
+}
+
+
+h1{
+   font-family: itim;
+   font-size: 2.5rem;
+   color: #ccd645;
+   text-align: center; 
+   margin-bottom: 20px
+}
+
+p{
+  font-family: itim;
+  font-size: 1.2rem;
+  color: #134689;
+  text-align: justify;
+  text-indent: 20px;
+  line-height: 30px;
+}
+
+#pag-SobreNos{
+	            margin-top: 20px;
+	            background-color: #F5F5F5;
+} 
+
+h2{
+   font-family: itim;
+   font-size: 2rem;
+   color: #ccd645;
+   text-align: left; 
+   margin-bottom: 20px
+}
+
+ul{
+	list-style: disc;
+	padding: 20px 50px;
+}
+
+li{
+	font-family: itim; 
+	color: #134689;
+	margin-bottom: 10px;
+}
+
+#pag-Historico{
+	            margin-top: 20px;
+} 
+
+section {
+  margin-bottom: 40px;
+}
+
+.container-icones{
+	             margin-top: 30px;
+	             display: flex;
+	             justify-content: center;
+	             align-items: center;
+	              
+}
+
+.container-icones p{
+	              color: #000;
+}
+
+.img-icones{
+	       width: 30px;
+	       height: 30px; 
+	       padding: 20px;
+}
+
+#pag-Passeios{
+	          background-color: #F5F5F5;
+}
+
+#container{
+	      display: flex;
+          flex-wrap: wrap;
+	      margin-top: 15px;
+	      margin-bottom: 20px;
+}
+
+.card{
+	  background-color: #FFF;
+	  margin: 10px;
+	  width: 25%;
+	  border-radius: 10px;
+	  box-shadow: 0 4px 8px #777;
+	  transition: 0.5s; 
+}
+
+.card:hover{
+	       box-shadow: 0px 8px 16px #CCC;
+}
+
+.card-conteudo{
+	          padding: 10px;
+}
+
+.card-conteudo p{
+	            font-size: 1.2rem;
+	            line-height: 20px; 
+}
+
+h3{
+	font-family: itim;
+	color: #4E4646;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+
+footer{
+	  background-color: #000;
+	  padding: 10px;
+}
+
+footer p{
+	   text-align: center;
+	   color: #FFF;
+}
+
+footer a{
+	   color: #FFF;
+}
+
+footer a:hover{
+        color: #c93c91;
+}
+
+#pag-Historico{
+	            margin-top: 20px;
+}
+
+#pag-Projetos{
+	          background-color: #F5F5F5;
+}
+
+#container{
+	      display: flex;
+	      margin-top: 15px;
+	      margin-bottom: 20px;
+}
+
+.card{
+	  background-color: #FFF;
+	  margin: 10px;
+	  width: 40%;
+	  border-radius: 10px;
+	  box-shadow: 0 4px 8px #777;
+	  transition: 0.5s; 
+}
+
+.card:hover{
+	       box-shadow: 0px 8px 16px #CCC;
+}
+
+.card-conteudo{
+	          padding: 10px;
+}
+
+.card-conteudo p{
+	            font-size: 1.2rem;
+	            line-height: 20px; 
+}
+
+h3{
+	font-family: itim;
+	color: #4E4646;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+iframe {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#pag-Indicadores{
+	            margin-top: 20px;
+	            background-color: #F5F5F5;
+} 
+
+#pag-Cadastro
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+  color: #333;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ccd645;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: bold;
+  color: #ccd645;
+  padding: 0 10px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #ccd645;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #ccd645;
+}
+
+nav {
+  position: relative;
+}
+
+.menu-hamburguer {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-hamburguer span {
+  height: 4px;
+  width: 25px;
+  background: white;
+  margin: 4px 0;
+}
+
+@media (max-width: 768px) {
+  .a-menu {
+    display: none;
+  }
+
+  .menu-hamburguer {
+    display: flex;
+  }
+
+  .menu-mobile {
+    display: none;
+    flex-direction: column;
+    background-color: var(--cor-primaria);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+  }
+
+  .menu-mobile a {
+    padding: var(--espaco-2);
+    color: white;
+    text-decoration: none;
+  }
+
+  .menu-mobile.active {
+    display: flex;
+  }
+}
+
+#projetos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+  justify-content: center; 
+  padding: 20px;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-conteudo {
+  padding: 15px;
+}
