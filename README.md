@@ -47,6 +47,14 @@ Plataforma web desenvolvida para apoiar ONGs na divulgação de projetos, capta�
 - Validação de formulário com alertas
 - Máscaras de entrada (CPF, telefone, CEP)
 
+## Atividade Prática IV – Versionamento, Acessibilidade e Deploy
+
+- Implementado GitFlow com branches `main`, `develop` e `feature/*`
+- Histórico de commits semânticos
+- Pull Requests documentados
+- Acessibilidade: estrutura semântica, navegação por teclado, contraste
+- Otimização: minificação de arquivos e compressão de imagens
+- Deploy via GitHub Pages: [Acesse aqui](https://deborahbq.github.io/ONGDistribuindoAmorIII/)
 
 ##  Desenvolvido por
 
